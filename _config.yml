@@ -27,11 +27,11 @@ rss:
 # Remove leading slashes ( "/archives" -> "archives" )
 menu:
   home: /
-  #categories: /categories
-  #about: /about
+  categories: /categories
   archives: /archives
   tags: /tags
-  #commonweal: /404.html
+  about: /about
+  # commonweal: /404.html
 
 
 # Enable/Disable menu icons.
@@ -95,13 +95,14 @@ social_icons:
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
 # default : /images/default_avatar.jpg
-#avatar:
+avatar: http://ww2.sinaimg.cn/large/63fe561egw1ezr7dgrbdrg208c07t0zo.gif
 
 
 # Social links
-# social:
-  #GitHub:
-  #Others:
+social:
+  GitHub: https://github.com/m2shad0w
+  Weibo: http://weibo.com/712310784
+  Others:
 
 
 # TOC in the Sidebar
@@ -235,3 +236,19 @@ images: images
 
 # Theme version
 version: 0.4.5.2
+
+since: 2013
+
+# title, chinese available
+links_title: Links
+# links
+links:
+  MacTalk: http://macshuo.com/
+  Matt: http://tang3w.com/
+  Onevcat: http://onevcat.com/
+  赵的小窝: http://zhaojin97.cn/
+  Fenng:  http://dbanotes.net/
+
+# MathJax Support
+mathjax: true
+
