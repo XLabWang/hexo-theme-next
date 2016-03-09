@@ -57,7 +57,7 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-#scheme: Mist
+# scheme: Mist
 
 
 
@@ -71,7 +71,7 @@ menu_icons:
 #  - always  expand for all pages automatically
 #  - hide    expand only when click on the sidebar toggle icon.
 #  - remove  Totally remove sidebar including sidebar toggle icon.
-sidebar: post
+sidebar: hide
 #sidebar: always
 #sidebar: hide
 #sidebar: remove
@@ -167,7 +167,7 @@ mathjax:
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: 812376c2631b7f221bbe8132a189eab1
 
 # Duoshuo ShortName
 #duoshuo_shortname:
@@ -250,5 +250,5 @@ links:
   Fenng:  http://dbanotes.net/
 
 # MathJax Support
-mathjax: true
-
+# mathjax: true
+swiftype_key: xk_vb9-Bh_iF48cAUGSK
