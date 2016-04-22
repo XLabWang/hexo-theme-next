@@ -27,11 +27,11 @@ rss:
 # Remove leading slashes ( "/archives" -> "archives" )
 menu:
   home: /
-  categories: /categories
+  #categories: /categories
+  #about: /about
   archives: /archives
   tags: /tags
-  about: /about
-  # commonweal: /404.html
+  #commonweal: /404.html
 
 
 # Enable/Disable menu icons.
@@ -57,24 +57,15 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-# scheme: Mist
-
+scheme: Muse
+#scheme: Mist
+#scheme: Pisces
 
 
 
 # ---------------------------------------------------------------
 # Sidebar Settings
 # ---------------------------------------------------------------
-
-# Sidebar, available value:
-#  - post    expand on posts automatically. Default.
-#  - always  expand for all pages automatically
-#  - hide    expand only when click on the sidebar toggle icon.
-#  - remove  Totally remove sidebar including sidebar toggle icon.
-sidebar: hide
-#sidebar: always
-#sidebar: hide
-#sidebar: remove
 
 
 # Social links
@@ -95,14 +86,7 @@ social_icons:
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
 # default : /images/default_avatar.jpg
-avatar: http://ww2.sinaimg.cn/large/63fe561egw1ezr7dgrbdrg208c07t0zo.gif
-
-
-# Social links
-social:
-  GitHub: https://github.com/m2shad0w
-  Weibo: http://weibo.com/712310784
-  Others:
+#avatar:
 
 
 # TOC in the Sidebar
@@ -119,6 +103,20 @@ toc:
 #creative_commons: by-nc-sa
 #creative_commons:
 
+sidebar:
+  # Sidebar Position, available value: left | right
+  position: left
+  #position: right
+
+  # Sidebar Display, available value:
+  #  - post    expand on posts automatically. Default.
+  #  - always  expand for all pages automatically
+  #  - hide    expand only when click on the sidebar toggle icon.
+  #  - remove  Totally remove sidebar including sidebar toggle icon.
+  display: post
+  #display: always
+  #display: hide
+  #display: remove
 
 
 
@@ -167,7 +165,7 @@ mathjax:
 #swiftype_key:
 
 # Baidu Analytics ID
-baidu_analytics: 812376c2631b7f221bbe8132a189eab1
+#baidu_analytics:
 
 # Duoshuo ShortName
 #duoshuo_shortname:
@@ -175,8 +173,15 @@ baidu_analytics: 812376c2631b7f221bbe8132a189eab1
 # Disqus
 #disqus_shortname:
 
+# Baidu Share
+# Available value:
+#    button | slide
+#baidushare:
+##  type: button
+
 # Share
 #jiathis:
+#add_this_id:
 
 # Share
 #duoshuo_share: true
@@ -210,7 +215,16 @@ facebook_sdk:
   webmaster:    #true
 
 
+# Show number of visitors to each article.
+# You can visit https://leancloud.cn get AppID and AppKey.
+leancloud_visitors:
+  enable: false
+  app_id: #<app_id>
+  app_key: #<app_key>
 
+
+# Tencent analytics ID
+# tencent_analytics:
 
 
 
@@ -235,20 +249,4 @@ js: js
 images: images
 
 # Theme version
-version: 0.4.5.2
-
-since: 2013
-
-# title, chinese available
-links_title: Links
-# links
-links:
-  MacTalk: http://macshuo.com/
-  Matt: http://tang3w.com/
-  Onevcat: http://onevcat.com/
-  赵的小窝: http://zhaojin97.cn/
-  Fenng:  http://dbanotes.net/
-
-# MathJax Support
-# mathjax: true
-swiftype_key: xk_vb9-Bh_iF48cAUGSK
+version: 0.5.0
